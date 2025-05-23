@@ -4,12 +4,12 @@ using namespace std;
 
 //  байты в мегабайты
 double MB(long long bytes) {
-    return bytes / (1024.0 * 1024.0);
+    //разрабатывается Сафроновой В.А.
 }
 
 //  байты в гигабайты
 double GB(long long bytes) {
-    //разрабатывается Сафроновой В.А.
+    return bytes / (1024.0 * 1024.0 * 1024.0);
 }
 
 int main() {
