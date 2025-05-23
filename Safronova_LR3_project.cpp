@@ -13,7 +13,7 @@ double GB(long long bytes) {
 }
 
 void EnterData(long long &res) {
-    //разрабатывается Сафроновой В.А.
+    cin >> res;
 }
 
 int main() {
@@ -33,6 +33,7 @@ int main() {
         switch (choice) {
             case 1:
                 cout << "Введите объем информации в байтах: ";
+                EnterData(bytes);
                 break;
             case 2:
                 if (bytes > 0) {
