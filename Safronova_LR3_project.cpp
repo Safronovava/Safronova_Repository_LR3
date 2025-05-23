@@ -4,7 +4,7 @@ using namespace std;
 
 //  байты в мегабайты
 double MB(long long bytes) {
-    //разрабатывается Сафроновой В.А.
+    return bytes / (1024.0 * 1024.0);
 }
 
 //  байты в гигабайты
